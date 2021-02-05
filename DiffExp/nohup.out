@@ -1,0 +1,76 @@
+STARTED
+ls/mapped.sam
+Warning: Could not open read file "ls/output.fastq" for reading; skipping...
+Error: No input read files were valid
+(ERR): bowtie2-align exited with value 1
+read_mapping.sh: line 15: ls/mapped.bam: No such file or directory
+read_mapping.sh: line 16: ls/mapped.sorted.bam: No such file or directory
+read_mapping.sh: line 17: ls/mapped.sorted.bam.bai: No such file or directory
+HEUREKA
+STARTED
+-d/mapped.sam
+Warning: Could not open read file "-d/output.fastq" for reading; skipping...
+Error: No input read files were valid
+(ERR): bowtie2-align exited with value 1
+read_mapping.sh: line 15: -d/mapped.bam: No such file or directory
+read_mapping.sh: line 16: -d/mapped.sorted.bam: No such file or directory
+read_mapping.sh: line 17: -d/mapped.sorted.bam.bai: No such file or directory
+HEUREKA
+STARTED
+/data/jannik/data/rnaseq/sRNA_focus/JL1_sRNA_3h_AGTCAA_L001_R1_001/mapped.sam
+1846018 reads; of these:
+  1846018 (100.00%) were unpaired; of these:
+    351559 (19.04%) aligned 0 times
+    1039429 (56.31%) aligned exactly 1 time
+    455030 (24.65%) aligned >1 times
+80.96% overall alignment rate
+HEUREKA
+STARTED
+/data/jannik/data/rnaseq/sRNA_focus/JL2_sRNA_5h_AGTTCC_L001_R1_001/mapped.sam
+1056113 reads; of these:
+  1056113 (100.00%) were unpaired; of these:
+    419514 (39.72%) aligned 0 times
+    412568 (39.06%) aligned exactly 1 time
+    224031 (21.21%) aligned >1 times
+60.28% overall alignment rate
+HEUREKA
+STARTED
+/data/jannik/data/rnaseq/sRNA_focus/JL3_sRNA_7h_ATGTCA_L001_R1_001/mapped.sam
+3414960 reads; of these:
+  3414960 (100.00%) were unpaired; of these:
+    320710 (9.39%) aligned 0 times
+    2383088 (69.78%) aligned exactly 1 time
+    711162 (20.82%) aligned >1 times
+90.61% overall alignment rate
+[bam_sort_core] merging from 2 files...
+HEUREKA
+STARTED
+/data/jannik/data/rnaseq/sRNA_focus/JL4_sRNA_9h_CCGTCC_L001_R1_001/mapped.sam
+1898155 reads; of these:
+  1898155 (100.00%) were unpaired; of these:
+    351130 (18.50%) aligned 0 times
+    1069658 (56.35%) aligned exactly 1 time
+    477367 (25.15%) aligned >1 times
+81.50% overall alignment rate
+HEUREKA
+STARTED
+/data/jannik/data/rnaseq/sRNA_focus/JL5_sRNA_11h_GTAGAG_L001_R1_001/mapped.sam
+3212052 reads; of these:
+  3212052 (100.00%) were unpaired; of these:
+    457212 (14.23%) aligned 0 times
+    1572475 (48.96%) aligned exactly 1 time
+    1182365 (36.81%) aligned >1 times
+85.77% overall alignment rate
+[bam_sort_core] merging from 2 files...
+HEUREKA
+STARTED
+/data/jannik/data/rnaseq/sRNA_focus/JL6_sRNA_13h_GTCCGC_L001_R1_001/mapped.sam
+2692059 reads; of these:
+  2692059 (100.00%) were unpaired; of these:
+    315218 (11.71%) aligned 0 times
+    1611969 (59.88%) aligned exactly 1 time
+    764872 (28.41%) aligned >1 times
+88.29% overall alignment rate
+[bam_sort_core] merging from 2 files...
+HEUREKA
+FINISHED
